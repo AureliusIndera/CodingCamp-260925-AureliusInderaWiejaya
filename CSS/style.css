@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px 25px;
+    text-align: center;    
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    color: black;
+}
+
+#Hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+
+
+#welcomeMessage{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+}
+
+#Hero    p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.container-hero {
+    width: 100%;
+    height: 775px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;
+    opacity: 0.2;           
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.circle {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+.container-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    width: 30%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 90px;
+    font-size: medium;
+}
+
+form div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nama, #tanggalLahir, textarea{
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+    
+.output-box {
+    width: 30%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 90px;  
+}
+
+#Profile {
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#Message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+
+#Message h2, #Profile h2 {
+    padding: 0 0 50px 150px;
+}
+
+textarea {
+    width: 300px;
+    padding: 50px 8px;
+    border-radius: 5px;
+}
+
+button {
+    width: 95%;
+    margin: 10px 0 0 15px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}

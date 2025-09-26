@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <h1>PPA</h1>
+        </div>
+
+        <!-- Navbar -->
+        <table>
+            <tr>
+                <td><a href="#Hero">Home</a></td>
+                <td><a href="">Our Profile</a></td>
+                <td><a href="">Message Us</a></td>
+            </tr>
+
+        </table>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Section Hero -->
+        <section id="Hero">
+            <h2 id="welcomeMessage">Hi, User</h2>
+            <p>Selamat Datang di Website PPA</p>
+            <div class="container-hero">
+                <img src="/Asset/62.jpg" alt="" width="1500px">
+
+            </div>
+
+        </section>
+        <!-- Akhir Section Hero -->
+        
+        <!-- Section Profile -->
+        <section id="Profile">
+            <h2>Our Headquarter</h2> 
+            <div class="container-profile">
+                <div class="card">
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h3>2021</h3>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h3>2022</h3>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h3>2023</h3>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h3>2024</h3>
+                    </div>
+                    <div class="item">
+                        <div class="circle"></div>
+                        <h3>2025</h3>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- Akhir Section Profile -->
+
+        <!-- Section Message -->
+        <section id="Message">
+            <h2>Message Us</h2> 
+            <div class="container-form">
+
+                <form>
+                    <div>
+                        <label for="">Nama   :</label><br>
+                        <input type="text" id="nama" placeholder="Masukkan nama" required>
+                    </div>
+    
+                    <div>
+                        <label for="">Tanggal Lahir   :</label><br>
+                        <input type="date" id="tanggalLahir" required >
+                    </div>
+                    
+                    <div>
+                        <label for="">Jenis Kelamin   :</label><br>
+                        <input type="radio" name="gender" value="Laki-laki" required>Laki-laki
+                        <input type="radio" name="gender" value="Perempuan">Perempuan
+                    </div>
+    
+                    <div>
+                        <label for="">Pesan   :</label>
+                        <textarea id="pesan" placeholder="Tulis pesan di sini"></textarea>
+                    </div>
+
+                    <button>Submit</button>
+                    
+                </form>
+    
+                 <div class="output-box" id="output">
+                    <p>Current time :</p>
+                    <p>Nama :</p>
+                    <p>Tanggal Lahir :</p>
+                    <p>Jenis Kelamin :</p>
+                    <p>Pesan :</p>
+                </div>
+            </div>
+            
+
+        </section>
+        <!-- Akhir section Message -->
+        
+
+    </main>
+    <!-- Akhir Main -->
+
+    <footer>
+        <p>Created by Aurelius Indera</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
